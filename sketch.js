@@ -133,6 +133,8 @@ function draw() {
 function mouseReleased() {
 	if (end == false) {
 		start = true;
+		scoreR = 0;
+		scoreL = 0;
 	}
 	if (end) {
 		end = false;
